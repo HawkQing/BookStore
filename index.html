@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Book Store</title>
+
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<h1>My Book Store</h1>
+
+		<form id="add-form">
+			<label>Title:</label>
+			<input id="add-bookname-field">
+			<br>
+			<label>Author:</label>
+			<input id="add-bookauthor-field">
+			<br>
+			<label>Description:</label>
+			<textarea id="add-descr-field" name="Description" cols="40" rows="5"></textarea>
+			<br>
+			<label>ISBN:</label>
+			<input id="add-isbn-field">
+			<br>
+			<label>Price Currency:</label>
+			<input id="add-currency-field">
+			<label>Amount:</label>
+			<input id="add-amount-field">
+			<br>
+			<label>Large Cover:</label>
+			<input id="add-large-field">
+			<br>
+			<label>Medium Cover:</label>
+			<input id="add-medium-field">
+			<br>
+			<label>Small Cover:</label>
+			<input id="add-small-field">
+			<br>
+			<label>Number of Pages:</label>
+			<input id="add-pages-field">
+			<br>
+			<button type="submit">Add</button>
+		</form>		
+		<br>
+		<br>
+
+		<form id="search-form">
+			<input id="search-field">
+			<button type="submit">Search</button>
+		</form>
+
+		<ul id="book-list">
+		</ul>
+		<script src="js/bookstore.js"></script>
+		<script src="js/xhr.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
